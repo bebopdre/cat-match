@@ -133,7 +133,7 @@ function compare() {
 
             setTimeout( () => {
                 let aTag = document.createElement('a');
-                aTag.setAttribute('href', '../home.html');
+                aTag.setAttribute('href', '../index.html');
                 winningMessage.appendChild(aTag);
 
                 let homeButton = document.createElement('button');
