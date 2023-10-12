@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+  padding: 1rem;
+  -webkit-backdrop-filter: blur(8px);
+          backdrop-filter: blur(8px);
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 0;
+  box-shadow: 35px 35px 68px 0px rgba(4, 0, 5, 0.5), inset -9px -9px 16px 0px rgba(115, 174, 246, 0.6), inset 0px 11px 28px 0px rgb(255, 255, 255);
+}
+.navigation__title {
+  color: #B6D1F9;
+}
+.navigation__link {
+  padding: 1rem;
+}
+.navigation__link-item {
+  color: #B6D1F9;
+  text-decoration: none;
+  font-size: 2rem;
+}
+
+.cat-match {
+  background-image: url("../assets/images/pink-gradient.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 2rem;
+}
+.cat-match__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+}
+.cat-match__box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cat-match__header {
+  width: 100%;
+  height: 24vh;
+  position: relative;
+  z-index: 1;
+  top: 2rem;
+}
+.cat-match__bubble {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 31.25rem;
+  height: 31.25rem;
+  -webkit-backdrop-filter: blur(8px);
+          backdrop-filter: blur(8px);
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 100%;
+  box-shadow: 8px 8px 68px 0px rgba(255, 140, 218, 0.5), inset -5px -5px 16px 0px rgba(153, 195, 246, 0.41), inset 0px 11px 28px 0px rgb(255, 255, 255);
+}
+.cat-match__bubble:active {
+  transform: scale(0.8);
+}
+.cat-match__image {
+  width: 65%;
+}/*# sourceMappingURL=index.css.map */
