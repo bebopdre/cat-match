@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.game {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(rgb(252, 138, 157), rgb(248, 218, 218));
+}
+.game__click-count {
+  font-size: 1.5rem;
+  color: white;
+  padding: 1rem 7rem;
+}
+.game__box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}/*# sourceMappingURL=game.css.map */
