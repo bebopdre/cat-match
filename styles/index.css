@@ -1,7 +1,12 @@
+@font-face {
+  font-family: "bubblegum";
+  src: url("../../assets/fonts/Bubblegum.ttf") format("truetype");
+}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "bubblegum";
 }
 
 .navigation {
